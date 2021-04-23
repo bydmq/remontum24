@@ -425,34 +425,34 @@
     <div class="modal" id="hidden-request">
         <div class="modal__inner">
             <h3 class="modal__title">Заявка</h3>
-            <form class="modal__form" action="#">
-                <input class="modal__form-input" type="text" placeholder="Имя">
-                <input class="modal__form-input" type="text" placeholder="Ваш телефон">
+            <form class="modal__form" action="#" method="POST">
+                <input class="modal__form-input" type="text" name="name" placeholder="Имя">
+                <input class="modal__form-input" type="text" name="phone" placeholder="Ваш телефон">
                 <a class="modal__form-link" href="#">Согласие на использование персональных данных</a>
-                <button class="modal__form-btn btn">Оставить заявку</button>
+                <button class="modal__form-btn btn" value="submit">Отправить заявку</button>
             </form>
         </div>
     </div>
     <div class="modal" id="hidden-advice">
         <div class="modal__inner">
             <h3 class="modal__title">Консультация</h3>
-            <form class="modal__form" action="#">
-                <input class="modal__form-input" type="text" placeholder="Имя">
-                <input class="modal__form-input" type="text" placeholder="Ваш телефон">
+            <form class="modal__form" action="#" method="POST">
+                <input class="modal__form-input" type="text" name="name" placeholder="Имя">
+                <input class="modal__form-input" type="tel" name="phone" placeholder="Ваш телефон">
                 <a class="modal__form-link" href="#">Согласие на использование персональных данных</a>
-                <button class="btn modal__form-btn-advice">Запрос консультации</button>
+                <button class="btn modal__form-btn-advice" value="submit">Запрос консультации</button>
             </form>
         </div>
     </div>
     <div class="modal modal-question" id="hidden-question">
         <div class="modal__inner">
             <h3 class="modal__title">Вопрос</h3>
-            <form class="modal__form" action="#">
-                <input class="modal__form-input" type="text" placeholder="Имя">
-                <input class="modal__form-input" type="text" placeholder="Ваш телефон">
-                <textarea class="modal__form-textarea" name="" id="" cols="30" rows="10" placeholder="Ваш вопрос"></textarea>
+            <form class="modal__form" action="#" method="POST">
+                <input class="modal__form-input" type="text" name="name" placeholder="Имя">
+                <input class="modal__form-input" type="tel" name="phone" placeholder="Ваш телефон">
+                <textarea class="modal__form-textarea" name="message" id="" cols="30" rows="10" placeholder="Ваш вопрос"></textarea>
                 <a class="modal__form-link" href="#">Согласие на использование персональных данных</a>
-                <button class="btn modal__form-btn">Отправить вопрос</button>
+                <button class="btn modal__form-btn" value="submit">Отправить вопрос</button>
             </form>
         </div>
     </div>
