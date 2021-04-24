@@ -772,10 +772,6 @@ button {
   height: 64px !important;
 }
 
-.modal-success {
-  display: block;
-}
-
 @media (max-width: 992px) {
   .prices__item-title {
     font-size: 18px;
