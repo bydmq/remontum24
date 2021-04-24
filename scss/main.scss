@@ -500,6 +500,19 @@ button{
         padding: 15px 0;
         background-color: #5f79d7;
     }
+    &__box{
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    &__text{
+        display: block;
+        margin-bottom: 25px;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #fff;
+    }
     &.modal-question.fancybox-content{
         height: 525px;
     }
@@ -519,6 +532,9 @@ button{
         width: 64px !important;
         height: 64px !important;
     }
+}
+.modal-success{
+    display: block;
 }
 @media (max-width: 992px){
     .prices{

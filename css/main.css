@@ -732,6 +732,21 @@ button {
   background-color: #5f79d7;
 }
 
+.modal__box {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.modal__text {
+  display: block;
+  margin-bottom: 25px;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+
 .modal.modal-question.fancybox-content {
   height: 525px;
 }
@@ -755,6 +770,10 @@ button {
 .modal .fancybox-button svg {
   width: 64px !important;
   height: 64px !important;
+}
+
+.modal-success {
+  display: block;
 }
 
 @media (max-width: 992px) {
